@@ -1,3 +1,6 @@
+/*
+ * @author Ed Salter
+*/
 function Todos(config){
   var todos = {};
   _list = [];

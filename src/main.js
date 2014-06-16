@@ -1,3 +1,7 @@
+/*
+ * @author Ed Salter
+*/
+
 (function(){
   //reference dom elements
   var domListCount = document.getElementById( "listCount" ),

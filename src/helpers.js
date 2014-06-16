@@ -1,5 +1,7 @@
-//http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript
-
+/*
+ * Based on
+ * http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript
+*/
 function ObserverList(){
   this.observerList = [];
 }
