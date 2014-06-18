@@ -2,7 +2,7 @@
  * @author Ed Salter
 */
 
-(function(){
+var appController = (function(){
   //reference dom elements
   var domListCount = document.getElementById( "listCount" ),
     domAddNewItemButton = document.getElementById( "addNewItem" ),
@@ -10,7 +10,7 @@
     domContainer = document.getElementById( "todoList" );
 
 
-  var myTodo = new Todos({
+  var myTodo = Todos({
     domListCount: domListCount,
     domAddNewItemButton: domAddNewItemButton,
     domNewToDoText: domNewToDoText,
